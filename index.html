@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My About</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Mary Grace D. Felipe, <sup>PTRP</sup></sup></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about" class="btn">About</a></li>
+        <li><a href="#experience" class="btn">Experience</a></li> 
+        <li><a href="#education" class="btn">Education</a></li> 
+        <li><a href="#certificates" class="btn">Certificates</a></li> 
+        <li><a href="#contact" class="btn">Contact</a></li> 
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Mary Grace D. Felipe, <sup>PTRP</sup></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+         <li><a href="#about" onclick="toggleMenu()">About</a></li>
+         <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> 
+         <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+         <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li> 
+         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+       <img src="./images/grace image1.jpg" alt="Mary Grace D. Felipe">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hi I'm</p>
+      <h1 class="title">Grace</h1>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./images/CV Mary Grace Felipe.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./images/LinkedIn Transparent.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/marygracefelipe'">
+        <img src="./images/GitHub Transparent.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/iamgracefelipe/portfolio'">
+      </div>
+    </div>
+    <!--<img src="./images/arrow down.png" alt="arrow down" class="icon arrow" onclick="location.href='./#about'">-->
+  </section>
+  <section id="about">
+    <p class="section__text__p1">My About</p>
+    <h1 class="title">Proficiency Skills</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+          <img src="./images/grace image4.jpg" alt="grace image4" class="about-pic">
+      </div>  
+      <div class="about-details-containers">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./images/check.png" alt="check" class="icon">
+              <h3>Web Technologies</h3>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+            </div>
+            <div class="details-container">
+              <img src="./images/check.png" alt="check" class="icon">
+              <h3>Version Control</h3>
+              <p>GitHub</p>
+            </div>
+          </div>
+      </div>
+
+      <!--<div class="about-details-containers">
+          <div class="about-containers">            
+            <div class="details-container">
+              <img src="./images/check.png" alt="check" class="icon">
+              <h3>Version Control</h3>
+              <p>GitHub</p>
+            </div>
+          </div>
+      </div>-->
+
+      <div class="about-details-containers">
+        <div class="about-containers"> 
+            <div class="details-container">
+              <img src="./images/check.png" alt="check" class="icon">
+              <h3>Management</h3>
+              <p>Financial</p>
+              <p>Analytical</p>
+              <p>Documenting</p>
+              <p>Researching</p>
+              <p>Scheduling</p>
+              <p>Microsoft Office</p>
+            </div>
+        </div>
+      </div>  
+      
+      <div class="about-details-containers">
+        <div class="about-containers">      
+            <div class="details-container">
+              <img src="./images/check.png" alt="check" class="icon">
+              <h3>Marketing</h3>
+              <p>Digital Marketing</p>
+              <p>Design | Layout</p>
+              <p>Photos | Videos</p>
+              <p>Social Media Platform</p>
+              <p>Facebook Meta</p>
+              <p>Google Analytics</p>
+              <p>Google Trends</p>
+              <p>Adobe Lightroom</p>
+              <p>Adobe Rush</p>
+              <p>Canva</p>
+              <p>Capcut</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="about-details-containers">
+        <div class="about-containers">      
+            <div class="details-container">
+              <img src="./images/check.png" alt="check" class="icon">
+              <h3>Sales</h3>
+              <p>Goal Setting</p>
+              <p>Prospecting</p>
+              <p>Communication</p>
+              <p>Negotiation</p>
+              <p>Product Knowledge</p>
+              <p>Presentation</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <img src="./images/arrow down.png" alt="arrow down" class="icon arrow" onclick="location.href='./#experience'">
+  </section>
+  
+  <section id="experience">
+    <p class="section__text__p1">Experience</p>
+    <h1 class="title">Professional Development</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+          <img src="./images/grace image2.jpg" alt="grace image2" class="about-pic">
+      </div>  
+      <div class="experience-details-containers">
+          <div class="experience-containers">
+            <div class="details-container">
+              <img src="./images/calendar.png" alt="calendar" class="icon">
+              <h3>Entrepreneur</h3>
+              <p>Jade Dragons Travel and Tours</p>
+              <p>2023 – current</p>
+            </div>
+            <div class="details-container">
+              <img src="./images/calendar.png" alt="calendar" class="icon">
+              <h3>Financial Advisor</h3>
+              <p>(Brighter Pro Sunny Level Up Financial Advisor)</p>
+              <p>Sun Life of Canada Philippines, Inc.</p>
+              <p>2019 – 2024</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="experience-details-containers">
+        <div class="experience-containers">
+            <div class="details-container">
+              <img src="./images/calendar.png" alt="calendar" class="icon">
+              <h3>General Manager</h3>
+              <p>MGO Car Rental Services / MGO Travel and Tours</p>
+              <p>2012– 2020</p>
+            </div>
+            <div class="details-container">
+              <img src="./images/calendar.png" alt="calendar" class="icon">
+              <h3>Customer Service Representative</h3>
+              <p>TELETECH PHILIPPINES | TELETECH SINGAPORE</p>
+              <p>CONVERGYS ALABANG</p>
+              <p>2003-2012</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow down.png" alt="arrow down" class="icon arrow" onclick="location.href='./#education'">
+  </section>
+
+  <section id="education">
+      <p class="section__text__p1">Education</p>
+      <h1 class="title">Scholastic Roadmap</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./images/grace image3.jpg" alt="grace image3" class="about-pic">
+        </div>
+        <div class="education-details-containers">
+          <div class="education-containers">
+            <div class="details-container">
+              <img src="./images/education.png" alt="education" class="icon">
+              <h3>B.Sc. Information Management</h3>
+              <p>Asia Pacific College</p>
+              <p>2005 – 2007</p>
+            </div>
+          </div> 
+        </div>   
+        <div class="education-details-containers">  
+          <div class="education-containers">
+            <div class="details-container">
+              <img src="./images/education.png" alt="education" class="icon">
+              <h3>B.Sc. Physical Therapy</h3>
+              <p>Pamantasan ng Lungsod ng Maynila</p>
+              <p>1997 – 2003</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./images/arrow down.png" alt="arrow down" class="icon arrow" onclick="location.href='./#certificates'">
+  </section>
+
+  <section id="certificates">
+    <p class="section__text__p1">Certificates</p>
+    <h1 class="title">Accession</h1>
+
+    <div class="certificates-row-container">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./images/Javascript Essentials 1 Verified Cisco NetAcad.png" alt="Javascript Essentials 1 Verified Cisco NetAcad" class="certificate-img">
+        </div>
+        <h3 class="certificate-title">Javascript Essentials 1 Verified Cisco NetAcad</h3>
+        <div class="btn-container">
+          <button class="btn btn-color-2 certificate-btn" onclick="location.href='https://www.credly.com/badges/cae9e714-2230-4109-9b2f-d5921ba06372/linked_in_profile'">Verification Certificate</button>
+        </div>
+      </div>
+ 
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./images/JavaScript Essentials 1 Certificate CISCO NetAcad and OpenEDG JS Institute.png" alt="JavaScript Essentials 1 Certificate CISCO NetAcad and OpenEDG JS Institute" class="certificate-img">
+          <h3 class="certificate-title">Statement of Achievement</h3>
+        </div>
+        <h3 class="certificate-title">Javascript Essentials 1 Verified Cisco NetAcad</h3>
+        <div class="btn-container">
+          <button class="btn btn-color-2 certificate-btn" onclick="location.href='https://www.credly.com/badges/cae9e714-2230-4109-9b2f-d5921ba06372/linked_in_profile'">Verification Certificate</button>
+        </div>
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./images/jse-40-01-jse-certified-entry-level-javascript-programmer.png" alt="jse-certified-entry-level-javascript-programmer" class="certificate-img">
+        </div>
+        <h3 class="certificate-title">JSE Certified Entry Level JavaScipt Programmer</h3>
+        <div class="btn-container">
+          <button class="btn btn-color-2 certificate-btn" onclick="location.href='https://www.credly.com/badges/5cc73e53-5e5d-4f77-ae5f-52fe8552dbed/public_url'">Verification Certificate</button>
+        </div>
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./images/JSE-40-01JSECertifiedEntry-LevelJavaScriptProgrammer_Badge2024.png" alt="JSE-40-01JSECertifiedEntry-LevelJavaScriptProgrammer_Badge2024" class="certificate-img">
+        </div>
+        <h3 class="certificate-title">JSE-40-01</h3>
+        <h3 class="certificate-title">Certified Entry-Level</h3>
+        <h3 class="certificate-title">JavaScript Programmer</h3>
+        <div class="btn-container">
+          <button class="btn btn-color-2 certificate-btn" onclick="location.href='https://www.credly.com/badges/5cc73e53-5e5d-4f77-ae5f-52fe8552dbed/public_url'">Verification Certificate</button>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow down.png" alt="arrow down" class="icon arrow" onclick="location.href='./#contact'">
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Contact</p>
+    <h1 class="title">Let's Connect</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./images/email blue.png" alt="email icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:examplemail@gmail.com">Send Email</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./images/LinkedIn.png" alt="LinkedIn icon" class="icon contact-icon email-icon">
+        <p><a href="https://www.linkedin.com/in/marygracefelipe/">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about" class="btn">About</a></li>
+          <li><a href="#experience" class="btn">Experience</a></li> 
+          <li><a href="#education" class="btn">Education</a></li> 
+          <li><a href="#certificates" class="btn">Certificates</a></li> 
+          <li><a href="#contact" class="btn">Contact</a></li> 
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Mary Grace D. Felipe, <sup>PTRP.</sup> All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+ </body>
+</html>
