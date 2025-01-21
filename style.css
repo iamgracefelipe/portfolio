@@ -7,6 +7,9 @@
 
 body{
   font-family:  "Poppins", serif;
+  transform: scale(0.9);
+  transform-origin: top left;
+  width: 111.11%; /* Compensate for scale */
 }
 
 html {
